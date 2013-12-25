@@ -1,0 +1,40 @@
+PODS:
+  - ActiveRecordKit (0.1):
+    - CommonKit
+  - CommonKit (0.1):
+    - DataKit
+  - DataKit (0.1):
+    - CommonKit
+  - IDPKit (0.1):
+    - ActiveRecordKit
+    - CommonKit
+    - DataKit
+    - QuartzCoreKit
+    - SystemConfigKit
+    - UIKit
+  - Kiwi/ARC (2.2.3)
+  - Kiwi/NonARC (2.2.3)
+  - Kiwi/XCTest (2.2.3):
+    - Kiwi/ARC
+    - Kiwi/NonARC
+  - QuartzCoreKit (0.1)
+  - SystemConfigKit (0.1):
+    - CommonKit
+  - UIKit (0.1):
+    - CommonKit
+
+DEPENDENCIES:
+  - IDPKit
+  - Kiwi/XCTest
+
+SPEC CHECKSUMS:
+  ActiveRecordKit: 94a2709a54420c0ef38230ee21cbddc4f8d86468
+  CommonKit: 9338ac6445f3a1878905c2eee7d55f10747e1495
+  DataKit: 112e3a4b588869355b957c12771b6842f0fa1b33
+  IDPKit: 63f3d07f26e5eb39f91b7a91fe628208de87b47a
+  Kiwi: 04c51e880831d291748ec702d42c4101f7eb95c9
+  QuartzCoreKit: 26cd1ecbc1404fcc964c6b5119d594e7e62fc072
+  SystemConfigKit: de5fc247db4fcf1b0204259bed0fc6ab2b28062e
+  UIKit: 3d5c3763e70365b1808188e56dd166958b7df45f
+
+COCOAPODS: 0.27.1
