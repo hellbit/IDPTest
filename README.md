@@ -15,3 +15,9 @@ Step by step instructions.
 You can change the name to any other MySpecs. 
 
 3. Then you must pod install.
+
+4. Test run iOS 7 32bit.
+
+5. If you create BDD test, push to master branch. Ok?
+
+Good luck! ;) 
