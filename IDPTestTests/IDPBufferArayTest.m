@@ -6,9 +6,8 @@
 //  Copyright (c) 2013 Alexander. All rights reserved.
 //
 
-#import <Kiwi.h>
-
 #import "IDPBufferArray.h"
+#import <Kiwi.h>
 
 SPEC_BEGIN(IDPBufferArrayTest)
 
@@ -16,7 +15,7 @@ registerMatchers(@"IDP");
 
 describe(@"IDPBufferArray", ^{
 
-    __block IDPBufferArray *buffer;
+    __block IDPBufferArray *buffer = nil;
     
     beforeEach(^{
         buffer = [[[IDPBufferArray alloc] init] autorelease];
@@ -36,7 +35,7 @@ describe(@"IDPBufferArray", ^{
             it(@"it should must be empty", ^{
                 [[buffer should] beEmpty];
             });
-            it(@"it should must respond to selector push: and pop", ^{
+            it(@"it should must respond to selectors push: and pop", ^{
                 [[buffer should] respondToSelector:@selector(push:)];
                 [[buffer should] respondToSelector:@selector(pop)];
             });
