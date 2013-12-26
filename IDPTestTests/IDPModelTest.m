@@ -1,6 +1,6 @@
 //
-//  IDPTestTests.m
-//  IDPTestTests
+//  IDPModelTest.m
+//  IDPModelTest
 //
 //  Created by HeLLBiT on 11/7/13.
 //  Copyright (c) 2013 Alexander. All rights reserved.
@@ -12,7 +12,7 @@
 
 static NSInteger const kIDPTimeOut = 3;
 
-SPEC_BEGIN(IDPTestTests)
+SPEC_BEGIN(IDPModelTest)
 
 registerMatchers(@"IDP");
 
