@@ -6,9 +6,8 @@
 //  Copyright (c) 2013 Alexander. All rights reserved.
 //
 
-#import <Kiwi.h>
-
 #import "IDPModel.h"
+#import <Kiwi.h>
 
 static NSInteger const kIDPTimeOut = 3;
 
@@ -18,7 +17,7 @@ registerMatchers(@"IDP");
 
 describe(@"IDPModel", ^{
     
-    __block IDPModel *model;
+    __block IDPModel *model = nil;
     
     beforeEach(^{
         model = [[[IDPModel alloc] init] autorelease];
