@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		11917FAA186B324100A2D7B9 /* IDPBufferAray.m in Sources */ = {isa = PBXBuildFile; fileRef = 11917FA9186B324100A2D7B9 /* IDPBufferAray.m */; };
+		11917FAA186B324100A2D7B9 /* IDPBufferArayTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 11917FA9186B324100A2D7B9 /* IDPBufferArayTest.m */; };
+		119C1F57186C319200D22845 /* IDPStackArrayTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 119C1F56186C319200D22845 /* IDPStackArrayTest.m */; };
 		11E31829182BE9A400644F75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11E31828182BE9A400644F75 /* Foundation.framework */; };
 		11E3182B182BE9A400644F75 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11E3182A182BE9A400644F75 /* CoreGraphics.framework */; };
 		11E3182D182BE9A400644F75 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11E3182C182BE9A400644F75 /* UIKit.framework */; };
@@ -36,7 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		11917FA9186B324100A2D7B9 /* IDPBufferAray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDPBufferAray.m; sourceTree = "<group>"; };
+		11917FA9186B324100A2D7B9 /* IDPBufferArayTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDPBufferArayTest.m; sourceTree = "<group>"; };
+		119C1F56186C319200D22845 /* IDPStackArrayTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDPStackArrayTest.m; sourceTree = "<group>"; };
 		11E31825182BE9A400644F75 /* IDPTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IDPTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11E31828182BE9A400644F75 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		11E3182A182BE9A400644F75 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -147,7 +149,8 @@
 			isa = PBXGroup;
 			children = (
 				11E31853182BE9A400644F75 /* IDPModelTest.m */,
-				11917FA9186B324100A2D7B9 /* IDPBufferAray.m */,
+				11917FA9186B324100A2D7B9 /* IDPBufferArayTest.m */,
+				119C1F56186C319200D22845 /* IDPStackArrayTest.m */,
 				11E3184E182BE9A400644F75 /* Supporting Files */,
 			);
 			path = IDPTestTests;
@@ -336,8 +339,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11917FAA186B324100A2D7B9 /* IDPBufferAray.m in Sources */,
+				11917FAA186B324100A2D7B9 /* IDPBufferArayTest.m in Sources */,
 				11E31854182BE9A400644F75 /* IDPModelTest.m in Sources */,
+				119C1F57186C319200D22845 /* IDPStackArrayTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
