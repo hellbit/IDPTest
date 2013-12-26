@@ -55,13 +55,12 @@ describe(@"IDPStackArray", ^{
                 } by: 1];
             });
             it(@"after pop, it shold count -1", ^{
-#warning fixed after fix IDPStackArray
-//                [[theBlock(^{
-//                    [stack push:object];
-//                    [stack pop];
-//                }) should] change:^NSInteger{
-//                    return [stack count];
-//                } by: 0];
+                [[theBlock(^{
+                    [stack push:object];
+                    [stack pop];
+                }) should] change:^NSInteger{
+                    return [stack count];
+                } by: 0];
             });
             
         });
